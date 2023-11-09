@@ -1124,6 +1124,7 @@ a:hover {
 }
 
 .image-18 {
+  max-height: 1.5rem;
   max-width: 1.5rem;
   flex: 0 auto;
 }
@@ -1138,6 +1139,7 @@ a:hover {
 }
 
 .logo-2 {
+  max-height: 1.5rem;
   max-width: 1.5rem;
   flex: 0 auto;
 }
@@ -1215,6 +1217,8 @@ a:hover {
 
   .textbox-100 {
     max-width: 1440px;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 
   .textbox-50 {
@@ -1978,6 +1982,7 @@ a:hover {
   }
 
   .logo-2 {
+    max-height: 3rem;
     max-width: 3rem;
   }
 
@@ -2537,6 +2542,7 @@ a:hover {
   }
 
   .logo-2 {
+    max-height: 1.5rem;
     max-width: 1.5rem;
   }
 
