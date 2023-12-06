@@ -1194,16 +1194,25 @@ a:hover {
 }
 
 .spline {
-  display: block;
+  max-width: 25vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   overflow: hidden;
 }
 
 .spline-scene-2 {
-  width: 100%;
-  height: 100%;
+  width: 70%;
   justify-content: center;
   align-items: center;
-  display: block;
+  display: flex;
+}
+
+.spline-scene-3 {
+  width: 72%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .footer-cv-spline {
@@ -1219,8 +1228,8 @@ a:hover {
 
 .spline-block-o {
   min-width: 100%;
-  grid-column-gap: 1vw;
-  grid-row-gap: 1vw;
+  grid-column-gap: 6vw;
+  grid-row-gap: 6vw;
   justify-content: center;
   align-items: center;
   padding-top: 10%;
@@ -1288,6 +1297,27 @@ a:hover {
 
 .cv-link.text-zentriert {
   text-align: center;
+}
+
+.spline-r {
+  max-width: 25vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.spline-scenetest {
+  width: 290px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  display: flex;
+}
+
+.splinetest {
+  display: block;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1440px) {
@@ -1790,6 +1820,24 @@ a:hover {
     padding-left: 5%;
     padding-right: 5%;
   }
+
+  .spline {
+    max-width: 36vw;
+  }
+
+  .spline-block-o {
+    grid-column-gap: 4vw;
+    grid-row-gap: 4vw;
+    overflow: hidden;
+  }
+
+  .spline-r {
+    max-width: 38vw;
+  }
+
+  .splinetest {
+    max-width: 50vw;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2118,12 +2166,39 @@ a:hover {
     font-size: 1rem;
   }
 
+  .spline {
+    max-width: 45vw;
+  }
+
+  .spline-scene-2 {
+    width: 74%;
+  }
+
+  .spline-scene-3 {
+    width: 82%;
+  }
+
+  .spline-block-o {
+    grid-column-gap: 0vw;
+    grid-row-gap: 0vw;
+  }
+
   .cv-link {
-    font-size: 3.7rem;
+    font-size: 2.2rem;
   }
 
   .cv-link.text-zentriert {
     max-width: 100%;
+  }
+
+  .spline-r {
+    max-width: 50vw;
+  }
+
+  .splinetest {
+    max-width: 60vw;
+    position: relative;
+    left: 23px;
   }
 }
 
@@ -2700,18 +2775,85 @@ a:hover {
     padding-top: 0%;
   }
 
+  .spline {
+    height: 450px;
+    max-width: 100vw;
+    align-items: flex-start;
+    position: static;
+  }
+
+  .spline-scene-2 {
+    z-index: 4;
+    width: 78%;
+    height: 380px;
+    margin-top: 15%;
+    display: flex;
+    position: relative;
+    top: 30px;
+  }
+
+  .spline-scene-3 {
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
   .footer-cv-spline {
-    grid-column-gap: 10vw;
-    grid-row-gap: 10vw;
+    grid-column-gap: 0vw;
+    grid-row-gap: 0vw;
     flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .spline-block-o {
+    grid-column-gap: 0vw;
+    grid-row-gap: 0vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10vh;
+    position: static;
+  }
+
+  .links-cv {
+    grid-column-gap: 3vw;
+    grid-row-gap: 3vw;
+    flex-direction: column;
+    position: -webkit-sticky;
+    position: sticky;
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
   }
 
   .cv-link {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 
   .cv-link.text-zentriert {
     margin-bottom: 5px;
+  }
+
+  .spline-r {
+    z-index: 5;
+    max-width: 100vw;
+    position: relative;
+    top: -23vh;
+    left: auto;
+  }
+
+  .spline-scenetest {
+    margin-top: 15%;
+    display: flex;
+    position: relative;
+    top: 30px;
+  }
+
+  .splinetest {
+    max-width: 100vw;
+    position: static;
   }
 }
 
