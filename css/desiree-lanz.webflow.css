@@ -1269,12 +1269,14 @@ a:hover {
 }
 
 .links-cv {
+  z-index: 10;
   grid-column-gap: 4vw;
   grid-row-gap: 4vw;
   justify-content: center;
   align-items: center;
   padding-bottom: 5%;
   display: flex;
+  position: relative;
 }
 
 .cv-link {
