@@ -1227,6 +1227,7 @@ a:hover {
 }
 
 .spline-block-o {
+  max-height: 85vh;
   min-width: 100%;
   grid-column-gap: 6vw;
   grid-row-gap: 6vw;
@@ -1234,6 +1235,7 @@ a:hover {
   align-items: center;
   padding-top: 10%;
   display: flex;
+  overflow: hidden;
 }
 
 .link-block-5, .spline-scene-4 {
@@ -2807,6 +2809,7 @@ a:hover {
   }
 
   .spline-block-o {
+    max-height: none;
     grid-column-gap: 0vw;
     grid-row-gap: 0vw;
     flex-direction: column;
